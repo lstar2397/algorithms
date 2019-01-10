@@ -1,8 +1,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> solution(vector<int> arr)
-{
+vector<int> solution(vector<int> arr) {
 	int prevElement = -1;
 	vector<int> answer;
 	for (size_t i = 0; i < arr.size(); i++)
